@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    background-color: #008080;
+    color: white;
+    /* padding-left: 1vw; */
+}
+
+.container{
+    display: flex;
+    height: 90vh;
+}
+
+.leftside{
+    
+    
+    flex: 1;
+    
+    
+
+}
+
+.rightside{
+  
+    flex: 1;
+   
+  
+}
+.leftbg{
+    background-color:lightgray;
+    margin: 4vh 2vh;
+    height: 80vh;
+}
+.questionlist{
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+
+}
+.responselist{
+    background-color:lightgray;
+    cursor: pointer;
+
+}
+#questionList{
+    padding: 1vw;
+}
+.questionList{
+    padding: 1vw;
+}
+/* .rightresponseList{
+    display: none;
+} */
+.headerQuestion{
+    display: none;
+}
+.responsehead{
+    display: none;
+}
+#submit{
+    float: right;
+}
+
+.responder{
+    display: none;
+}
+
+/* #newQuestion{
+    background-color: rgb(0, 81, 255);
+    margin-left: 1vw;
+    padding: 1vh 1vh;
+    color: white;
+    border-radius: .01vh;
+} */
+#search{
+    background-color: white;
+    margin-left: 2vw;
+    line-height: 4vh;
+}
+.responselist{
+    margin: 1vh;
+}
